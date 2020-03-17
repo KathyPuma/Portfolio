@@ -1,0 +1,57 @@
+.About-container{
+    display: grid;
+    grid-template-rows: 35%;
+    height: 80%;
+    justify-content: center;
+    align-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.About-card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 250px;
+}
+
+
+.About-title{
+    align-self: center;
+    margin: 0px;
+    /* padding-bottom: 15px; */
+    border-bottom: 1px solid gray;
+    padding: 15px;
+}
+
+.About-description{
+    margin: 0px;
+    align-self: center;
+    padding: 15px;
+}
+
+@media only screen and (267px <= width <= 326px) {
+
+    .About-title{
+    padding: 0px;
+    font-size: 23px;
+    }
+
+}
+.About-description{
+    padding: 15px;
+    font-size: 17px;
+
+}
+      
+@media only screen and (max-width: 266px) { 
+    .About-title{
+        padding: 0px;
+        font-size: 15px;
+}
+    .About-description{
+        padding: 6px;
+        font-size: 14px;
+    }
+ }
+
+

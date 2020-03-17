@@ -1,0 +1,22 @@
+.Skills-container{
+margin: 0 20%;
+}
+.Skills-title{
+    margin: 20% 0;
+}
+
+.Skills-icons{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    margin: 35% 0;
+}
+
+.react-logo, .js-logo, .node-logo, .html-logo{
+    font-size: 2em;
+}
+
+.react-logo{
+    color: skyblue;
+}
+
+

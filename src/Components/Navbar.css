@@ -1,0 +1,51 @@
+ul{
+    list-style-type: none;
+    border:0px;
+  
+}
+
+
+.Navbar-stage{
+    display:flex;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    z-index: 10;
+    margin-top: 0;
+    display: inline-flex;
+    flex-grow: 1;
+    padding: 0 20px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Nav-link.link, .Nav-link:visited, .Nav-link:active, .Nav-link {
+  text-decoration: none;
+  padding: 2%;
+}
+
+.Nav-link.link , .Nav-link:visited, .Nav-link:active,.Nav-link{
+    color: white;
+}
+ 
+
+.Nav-link:after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 0;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+
+.Nav-link:hover:after {
+  width: 100%;
+  background:  pink;
+}
+
+
+.x-logo{
+    display: flex;
+}

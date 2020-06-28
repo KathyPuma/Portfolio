@@ -1,29 +1,28 @@
-.App {
-  text-align: center;
+.Light{
+  background-color: white;
+  color: black;
+  height: 100%;
 }
 
-.Home-stage, .Projects-stage,  .About-stage,  .Contact-stage, .Skills-stage {
-height: 100VH;
+.Dark{
+  background-color:black;
+  color:white;
+  height: 100%;
+}
+.buttonsContainer{
+  text-align: right;
+}
+
+.Home-stage, .main,  .About-stage,  .Contact-stage, .Skills-stage {
+  height: 100vh;
+  margin-top: 10%;
 } 
 
-.scroll-button{
-  background-color: white; 
-  color: black; 
-  border: 2px solid lightgrey;
-  height: 200px;
+.main{
+  height: 100%;
+  margin-top: 10%;
 }
+.Nav-heading{
+  color: pink;
+};
 
-.arrow-up-logo{
-  color: #ff2247 ; 
-  font-size: 2em;
-  }
-
-.scroll-arrow:hover{
-  background-color: #ff2247;
-
-  border: 2px solid white;
-  }
-
-.arrow-up-logo:hover{
-  color: gray;    
-}

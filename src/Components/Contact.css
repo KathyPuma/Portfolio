@@ -1,5 +1,27 @@
-
 .icons{
-    height: 50px;
-    width: 50px;
+    height: 44px;
+    width: 44px;
+}
+
+.Contact-container{
+    margin: 0 20%;
+}
+
+.Contact-icons{
+    display: grid; 
+    grid-template-columns: repeat(3,auto);
+    margin: 20% 0; 
+}
+
+.Contact-title{
+    margin: 20% 0;
+} 
+a{
+    display: flex;
+    flex-direction: column;
+}
+
+.github-link, .linkedin-link{
+    display: flex;
+    justify-content: center;
 }

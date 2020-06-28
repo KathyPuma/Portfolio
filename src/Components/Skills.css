@@ -1,5 +1,5 @@
 .Skills-container{
-margin: 0 20%;
+    margin: 0 20%;
 }
 .Skills-title{
     margin: 20% 0;
@@ -8,11 +8,13 @@ margin: 0 20%;
 .Skills-icons{
     display: grid;
     grid-template-columns: repeat(3,auto);
-    margin: 35% 0;
+    margin: 25% 0;
+    grid-gap: 25px;
+    grid-auto-flow: column;
 }
 
 .react-logo, .js-logo, .node-logo, .html-logo{
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 .react-logo{
@@ -20,3 +22,11 @@ margin: 0 20%;
 }
 
 
+
+.react-log-div,.js-div, .node-div , .html-div{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}

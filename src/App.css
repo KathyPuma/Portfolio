@@ -2,12 +2,14 @@
   background-color: white;
   color: black;
   height: 100%;
+  fill: black;
 }
 
 .Dark{
   background-color:black;
   color:white;
   height: 100%;
+  fill: white;
 }
 .buttonsContainer{
   text-align: right;

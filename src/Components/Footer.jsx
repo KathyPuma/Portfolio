@@ -1,11 +1,8 @@
 import React from 'react'
-import GithubLogo from './Icons/githubIcon.png'
-import LinkedinLogo from './Icons/LinkedinIcon.png'
 import './Footer.css'
 
 
 function Footer({ lightMode }) {
-    console.log("lightMode", lightMode)
     return (
         <div className='Footer-stage'>
             <div className='Footer-container'>

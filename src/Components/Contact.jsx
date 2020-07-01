@@ -17,36 +17,17 @@ export default class Contact extends React.Component {
                     onSubmit={this.submitForm}
                     action="https://formspree.io/moqknzno"
                     method="POST"
-                    className='Contacfot-form'
+                    className='Contact-form'
                 >
-
                     <label className='email-label' >Email:</label>
                     <input className='input' type="email" name="email" />
 
                     <label className='message-label' >Message:</label>
                     <input className='input' type="text" name="message" />
 
-                    {status === "SUCCESS" ? <p>Thanks!</p> : <button 
-                    style={{
-                        backgroundColor: 'pink',
-                        color: 'white',
-                        padding: '12px 20px',
-                        border: 'none',
-                        borderRadius: '4px',
-                        cursor: 'pointer',
-                        float: 'right',
-                        display: 'flex',
-                        justifyContent: 'center',
-                        alignSelf: 'center',
-                        gridRowStart: 3,
-                        gridRowEnd: 3,
-                        gridColumnStart: 2,
-                        gridColumnEnd: 3,
-                        width: '25%',
-                        justifySelf: 'flex-end',
-                    }}
-                    >Submit</button>}
-                    {status === "ERROR" && <p>Ooops! There was an error.</p>}
+                    {status === "SUCCESS" ? <p className= "submit-message">Email sent!</p> : 
+                    <button className = "submit-button" >Submit</button>}
+                    {status === "ERROR" && <p className= "submit-message">Message Failed to send</p>}
                 </form>
             </div>
         );

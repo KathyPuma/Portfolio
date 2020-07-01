@@ -1,29 +1,31 @@
 .Light{
   background-color: white;
   color: black;
-  height: 100%;
+  min-height: 100vh;
   fill: black;
 }
 
 .Dark{
   background-color:black;
   color:white;
-  height: 100%;
+  min-height: 100vh;
   fill: white;
 }
+
 .buttonsContainer{
   text-align: right;
 }
 
-.Home-stage, .main,  .About-stage,  .Contact-stage, .Skills-stage {
-  height: 100vh;
-  margin-top: 10%;
+body{
+margin:0px;
+font-family: "Helvetica Neue";
+}
+
+.Home-stage, .main,  .About-stage,  .Contact-stage, .Skills-stage , .cards{
+  height: 100%;
+  padding-top: 45px;
 } 
 
-.main{
-  height: 100%;
-  margin-top: 10%;
-}
 .Nav-heading{
   color: pink;
 };

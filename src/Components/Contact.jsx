@@ -22,11 +22,12 @@ export default class Contact extends React.Component {
 
                     <label className='email-label' >Email:</label>
                     <input className='input' type="email" name="email" />
-      
-                    <label className='message-label' >Message:</label>
-                    <input className='input' className = 'messageInput'type="text" name="message" />
 
-                    {status === "SUCCESS" ? <p>Thanks!</p> : <button style={{
+                    <label className='message-label' >Message:</label>
+                    <input className='input' type="text" name="message" />
+
+                    {status === "SUCCESS" ? <p>Thanks!</p> : <button 
+                    style={{
                         backgroundColor: 'pink',
                         color: 'white',
                         padding: '12px 20px',
@@ -35,7 +36,6 @@ export default class Contact extends React.Component {
                         cursor: 'pointer',
                         float: 'right',
                         display: 'flex',
-                        width: '100%',
                         justifyContent: 'center',
                         alignSelf: 'center',
                         gridRowStart: 3,
@@ -44,8 +44,8 @@ export default class Contact extends React.Component {
                         gridColumnEnd: 3,
                         width: '25%',
                         justifySelf: 'flex-end',
-
-                    }}>Submit</button>}
+                    }}
+                    >Submit</button>}
                     {status === "ERROR" && <p>Ooops! There was an error.</p>}
                 </form>
             </div>

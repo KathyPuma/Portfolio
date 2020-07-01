@@ -19,7 +19,7 @@
     justify-items: center;
 }
 
-.react-logo, .js-logo, .node-logo,.express-logo, .postgreSQL-logo,.github-logo, .html-logo{
+.react-logo,.css-logo, .git-logo, .js-logo, .node-logo,.express-logo, .postgreSQL-logo,.github-logo, .html-logo{
     font-size: 2.5em;
     height: 100px;
 }
@@ -28,7 +28,7 @@
     color: skyblue;
 }
 
-.react-logo-div,.js-div, .node-div , .html-div, .express-div, .postgreSQL-div , .github-div{
+.skill-logo-div{
     display: flex;
     flex-direction: column;
     align-items: center;

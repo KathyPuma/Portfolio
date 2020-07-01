@@ -1,27 +1,38 @@
-.icons{
-    height: 44px;
-    width: 44px;
-}
-
-.Contact-container{
-    margin: 0 20%;
-}
-
-.Contact-icons{
-    display: grid; 
-    grid-template-columns: repeat(3,auto);
-    margin: 20% 0; 
-}
-
-.Contact-title{
-    margin: 20% 0;
-} 
-a{
-    display: flex;
-    flex-direction: column;
-}
-
-.github-link, .linkedin-link{
-    display: flex;
+.Contact-form{
+    margin: 0px 20%;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto  50%;
+}
+
+.input{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 25px;
+}
+
+.message-label, .email-label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+} 
+
+.button{
+    background-color: pink;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+.message{
+    padding-bottom: 50px;
+}
+
+.messageInput{
+    height: 100px;
 }

@@ -22,6 +22,11 @@
     margin: 0px;
     align-self: center;
     padding: 15px;
+    font-size: 19px;
+    font-family: "Helvetica Neue";
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
 }
 
 @media only screen and (267px <= width <= 326px)  {
@@ -33,7 +38,7 @@
 
 .About-description{
     padding: 15px;
-    font-size: 17px;
+    font-size: 19px;
 
 }
       

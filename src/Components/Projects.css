@@ -50,15 +50,11 @@ img {
 @media (min-width: 40rem) {
   .cards_item {
     width: 50%;
-    /* margin-bottom: 10px; */
-
   }
   a.link , a:visited, a:active,a {
     text-decoration: none;
     color:black;
- 
   }
-  
 }
 
 @media (min-width: 56rem) {

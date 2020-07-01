@@ -1,7 +1,7 @@
-export default function rootReducer(state = { mode: false }, action) {
+export default function rootReducer(state = { darkMode: false }, action) {
    switch (action.type) {
       case "CHANGE_MODE":
-         return { ...state, mode: !state.mode };
+         return { ...state, darkMode: !state.darkMode };
       default:
          return state
    }

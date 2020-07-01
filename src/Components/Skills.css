@@ -4,22 +4,19 @@
     align-content: center;
 }
 
-
 .Skills-container{
     margin: 0 20%;
 }
 
 .Skills-icons{
     display: grid;
-    /* grid-template-columns: repeat(3,auto); */
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
     object-fit: cover;
-    /* margin: 10% 0px; */
-    grid-gap: 25px;
-    /* grid-auto-flow: column; */
+    grid-gap: 15%;
     justify-content: center;
-    
-
+    font-size: .95em;
+    height: 30px;
+    justify-items: center;
 }
 
 .react-logo, .js-logo, .node-logo,.express-logo, .postgreSQL-logo,.github-logo, .html-logo{
@@ -31,16 +28,12 @@
     color: skyblue;
 }
 
-
-
 .react-logo-div,.js-div, .node-div , .html-div, .express-div, .postgreSQL-div , .github-div{
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     height: 100%;
-
+    height: 75%;
 }
 
 .icon-name{

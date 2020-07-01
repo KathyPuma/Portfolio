@@ -8,8 +8,9 @@ function About() {
             <div className='About-container'>
                 <div className='About-card'>
                     <p className='About-description'>
-                        Hi! This is a place holder for the about page and will change soon!
-                        </p>
+                        Graduated with a bachelor's degree in Accounting and Economics but grew a passion for tech in college after taking a Computer Science course.
+                        Deciding it was too late to change majors, I continued on and graduated but joined Pursuit right after where I learn PERN stack.
+                    I enjoy cooking, dancing and hiking! </p>
                 </div>
             </div>
         </div>

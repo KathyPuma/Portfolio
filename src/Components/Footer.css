@@ -1,0 +1,53 @@
+.icons{
+    height: 44px;
+    width: 44px;
+}
+
+.Footer-icons{
+    display: grid; 
+    grid-template-columns: repeat(2,auto);
+    grid-gap: 50%;
+
+}
+.Footer-stage{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+
+.Footer-title{
+    margin: 20% 0;
+} 
+a{
+    display: flex;
+    flex-direction: column;
+}
+
+.github-link, .linkedin-link{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 62px;
+}
+
+
+.linkedin-lightMode{
+    fill: #0e76a8;
+}
+
+.cls-2{
+    fill: white;
+    color:white;
+}
+.name-lightMode {
+    color:black;
+ 
+}
+
+.name-darkMode, .github-darkMode{
+    color:white;
+    fill:white;
+}

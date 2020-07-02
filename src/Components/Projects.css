@@ -1,6 +1,5 @@
 .main{
   max-width: 1200px;
-  margin: 0 auto;
 }
 
 h1 {
@@ -55,12 +54,19 @@ img {
     text-decoration: none;
     color:black;
   }
+  .cards{
+    justify-content: center;
+    padding: 0px;
+
+
+  }
 }
 
 @media (min-width: 56rem) {
   .cards_item {
-    width: 33.3333%;
+    width: 27.33%;
   }
+ 
 }
 
 .card {

@@ -21,9 +21,10 @@ margin:0px;
 font-family: "Helvetica Neue";
 }
 
-.Home-stage, .main,  .About-stage,  .Contact-stage, .Skills-stage , .cards{
+.Home-stage, .main,  .About-stage,  .Contact-stage, .Skills-stage {
   height: 100%;
   padding-top: 45px;
+  padding-bottom: 5rem;
 } 
 
 .Nav-heading{

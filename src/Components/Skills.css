@@ -10,12 +10,11 @@
 
 .Skills-icons{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(100px, auto));
     object-fit: cover;
-    grid-gap: 15%;
+    grid-gap: 1em;
     justify-content: center;
     font-size: .95em;
-    height: 30px;
     justify-items: center;
 }
 
@@ -32,10 +31,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100%;
-    height: 75%;
+    height: auto;
 }
-
 .icon-name{
     display: flex;
     justify-content: center;

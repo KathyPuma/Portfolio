@@ -13,8 +13,8 @@ import './App.css'
 function App(props) {
 
   return (
-    <div className={!props.mode ? "Light" : 'Dark'}>
-      <ToggleButton mode={props.mode} className='toggle' />
+    <div className={!props.darkMode ? "Light" : 'Dark'}>
+      <ToggleButton darkMode={props.darkMode} className='toggle' />
 
       <Navbar />
       <Switch >
@@ -24,14 +24,14 @@ function App(props) {
         <Route path="/" component={About} />
       </Switch>
       
-      <Footer lightMode={props.mode} />
+      <Footer darkMode={props.darkMode} />
     </div>
   );
 }
 
 const mapStateToProps = (state) => {
   return {
-    mode: state.state.mode
+    darkMode: state.theme.darkMode
   };
 }
 export default withRouter(connect(mapStateToProps)(App));

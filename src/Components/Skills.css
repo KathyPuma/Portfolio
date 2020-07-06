@@ -18,7 +18,7 @@
     justify-items: center;
 }
 
-.react-logo,.css-logo, .git-logo, .js-logo, .node-logo,.express-logo, .postgreSQL-logo,.github-logo, .html-logo{
+.react-logo, .redux-logo, .css-logo, .git-logo, .js-logo, .node-logo,.express-logo, .postgreSQL-logo,.github-logo, .html-logo{
     font-size: 2.5em;
     height: 100px;
 }
@@ -37,4 +37,8 @@
     display: flex;
     justify-content: center;
     align-content: center;
+}
+
+.skill-logo-div-darkMode{
+    fill:white;
 }

@@ -18,10 +18,10 @@
 
 body{
 margin:0px;
-font-family: "Helvetica Neue";
+font-family: 'Playfair Display', serif;
 }
 
-.Home-stage, .main,  .About-stage,  .Contact-stage, .Skills-stage {
+.Home-stage, .Projects-stage,  .About-stage,  .Contact-stage, .Skills-stage {
   height: 100%;
   padding-top: 45px;
   padding-bottom: 5rem;

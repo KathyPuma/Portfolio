@@ -1,16 +1,10 @@
-## Kathy's Portfolio
+## Kathy's Personal Website
 
-### Skills:
-* JavaScript
-* Node
-* React
-* Express 
-* PostgreSQL
+### Deployed Version: https://kathypuma.dev/
 
-### Contact:
-* github
-* Linkedin
-* resume
-* email
+
+!['About'](./Wireframes/aboutWireframe.png)
+
+
 
 

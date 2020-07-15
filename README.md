@@ -1,7 +1,8 @@
 ## Kathy's Personal Website
 
-### Deployed Version: https://kathypuma.dev/
+### Deployed: https://kathypuma.dev/
 
+## Wireframes 
 
 !['About'](./Wireframes/aboutWireframe.png)
 
@@ -10,5 +11,6 @@
 !['skills'](./Wireframes/skillsWireframe.png)
 
 !['contact'](./Wireframes/contactWireframe.png)
+
 
 

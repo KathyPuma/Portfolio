@@ -1,12 +1,12 @@
 .Light{
-  background-color: white;
+  background-color:#FAFAFA;
   color: black;
   min-height: 100vh;
   fill: black;
 }
 
 .Dark{
-  background-color:black;
+  background-color: #121212;
   color:white;
   min-height: 100vh;
   fill: white;
@@ -23,11 +23,10 @@ font-family: 'Playfair Display', serif;
 
 .Home-stage, .Projects-stage,  .About-stage,  .Contact-stage, .Skills-stage {
   height: 100%;
-  padding-top: 45px;
   padding-bottom: 5rem;
 } 
 
 .Nav-heading{
-  color: pink;
+  color: #FF2247;
 };
 

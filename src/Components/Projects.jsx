@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import './Projects.css'
 import Carry from './Projects/Carry.png'
 import Greenlist from './Projects/Greenlist.jpg'
-import holDing from './Projects/holDing.png'
 
 function Projects() {
     const [projects, setProjects] = useState([])
@@ -16,7 +15,6 @@ function Projects() {
                     [
                         { name: 'Carry', about: 'A delivery platform for luxury clothes in NYC', img: Carry, github: 'https://github.com/KathyPuma/Carry', deployed: 'https://pursuitcarry.herokuapp.com/' },
                         { name: 'Greenlist', about: 'A registry that allows small designers and suppliers have a centralized source of finding materials.', img: Greenlist, github: 'https://github.com/KathyPuma/greenlist__FSWeb', deployed: 'https://greenlist-registry.herokuapp.com/main' },
-                        // { name: 'holDing', about: 'A micro social media that allows user to join "holds". These holds are private with the purpose to create a safespace.', img: holDing, github: 'https://github.com/KathyPuma/holding__WebApp' },
                     ]
                 setProjects(displayProject)
             }
@@ -26,7 +24,7 @@ function Projects() {
             <ul className="cards">
                 {projects.map(project => {
                     return (
-                        <li className="cards_item">
+                        <li className="cards_item"  key={project.name}>
                             <div className="card">
                                 <img src={project.img} alt="Avatar" className="project_image" />
                                 <div className="overlay">

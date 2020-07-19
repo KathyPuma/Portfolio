@@ -6,7 +6,7 @@
 .Footer-icons{
     display: grid; 
     grid-template-columns: repeat(2,auto);
-    grid-gap: 50%;
+    grid-gap: 10%;
 }
 
 body{

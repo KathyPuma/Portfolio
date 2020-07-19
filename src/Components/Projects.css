@@ -56,14 +56,14 @@
 
 .card_content {
   padding: 1rem;
-  background-color: gray;
+  background-color: #FF2247;
   position: absolute;
   bottom: 0px;
   width: 100%;
 }
 
 .card_text {
-  font-size: 1rem;
+  font-size: 1.4rem;
   position: absolute;
   line-height: 1.5;
   font-weight: 400;
@@ -85,7 +85,7 @@ position: relative;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: gray;
+  background-color: #FF2247;
 }
 
 .card:hover .overlay {

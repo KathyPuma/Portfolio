@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 import './About.css'
 
 
@@ -13,6 +14,8 @@ function About() {
                     I enjoy cooking, dancing and hiking! </p>
                 </div>
             </div>
+
+            <Footer/>
         </div>
     )
 }

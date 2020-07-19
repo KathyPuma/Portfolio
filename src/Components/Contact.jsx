@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from './Footer'
 import './Contact.css'
 
 function Contact() {
@@ -16,7 +17,10 @@ function Contact() {
                 </fieldset>
                 <input type="submit" value="Submit" className='submit-button'></input>
             </form>
+            
+            <Footer/>
         </div>
+
     );
 }
 

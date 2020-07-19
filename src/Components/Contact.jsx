@@ -5,7 +5,7 @@ import './Contact.css'
 function Contact() {
     return (
         <div className='Contact-stage'>
-            <form className="contact-form" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/kathypuma@pursuit.org" method="post">
+            <form className="contact-form" name="simple-contact-form" acceptCharset="utf-8" action="https://formspree.io/kathypuma@pursuit.org" method="post">
                 <fieldset className="contact-form-inputs">
                     <label htmlFor="name-label">Name:</label>
                     <input type="text" name="name" className="name-label" placeholder="Name" required></input>

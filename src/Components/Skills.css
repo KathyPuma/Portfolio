@@ -20,7 +20,7 @@
 
 .react-logo, .redux-logo, .css-logo, .git-logo, .js-logo, .node-logo,.express-logo, .postgreSQL-logo,.github-logo, .html-logo{
     font-size: 2.5em;
-    height: 100px;
+    height: 60px;
 }
 
 .react-logo{
@@ -37,6 +37,8 @@
     display: flex;
     justify-content: center;
     align-content: center;
+    margin: 10px 0px;
+    font-size: 1.5em;
 }
 
 .skill-logo-div-darkMode{

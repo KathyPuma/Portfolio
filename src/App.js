@@ -13,9 +13,9 @@ function App(props) {
 
   return (
     <div className={!props.darkMode ? "Light" : 'Dark'}>
-      <ToggleButton darkMode={props.darkMode} className='toggle' />
-
+      <ToggleButton className='toggle' toggleChecked = {props.toggleChecked}/>
       <Navbar />
+
       <Switch >
         <Route path="/projects" component={Project} />
         <Route path="/skills" component={Skills} />
@@ -29,7 +29,8 @@ function App(props) {
 
 const mapStateToProps = (state) => {
   return {
-    darkMode: state.theme.darkMode
+    darkMode: state.theme.darkMode,
+    toggleChecked: state.theme.toggleChecked
   };
 }
 export default withRouter(connect(mapStateToProps)(App));

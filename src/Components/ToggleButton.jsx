@@ -5,15 +5,17 @@ import { CHANGE_MODE } from '../redux/actions/toggleAction'
 import './ToggleButton.css'
 
 
-const ToggleButton = (props) => {
-    let { CHANGE_MODE } = props;
+const ToggleButton = ({ CHANGE_MODE, toggleChecked }) => {
 
     return (
         <div className='buttonsContainer' >
             <div>
                 <div className='buttons' >
                     <label className="switch">
-                        <input type="checkbox" onClick={CHANGE_MODE} />
+                        <input type="checkbox"
+                            onChange={CHANGE_MODE}
+                            checked={!toggleChecked}
+                        />
                         <span className="slider round"></span>
                     </label>
                 </div>

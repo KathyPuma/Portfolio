@@ -14,7 +14,7 @@ const ToggleButton = ({ CHANGE_MODE, toggleChecked }) => {
                     <label className="switch">
                         <input type="checkbox"
                             onChange={CHANGE_MODE}
-                            checked={!toggleChecked}
+                            checked={toggleChecked}
                         />
                         <span className="slider round"></span>
                     </label>

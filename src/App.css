@@ -26,7 +26,10 @@ font-family: 'Playfair Display', serif;
   padding-bottom: 5rem;
 } 
 
-.Nav-heading{
-  color: #FF2247;
-};
+.Nav-heading-lightMode{
+  color: #eda5a9;
+}
 
+.Nav-heading-darkMode{
+  color: #FF2247;
+}

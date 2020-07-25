@@ -14,7 +14,9 @@ ul{
     justify-content: center;
 }
 
-.Nav-link.link, .Nav-link:visited, .Nav-link:active, .Nav-link {
+.Nav-link-darkMode:link, .Nav-link-darkMode:visited, .Nav-link-darkMode:active, .Nav-link-darkMode, 
+.Nav-link-lightMode:link, .Nav-link-lightMode:visited, .Nav-link-lightMode:active, .Nav-link-lightMode {
+
   text-decoration: none;
   padding: 2%;
   color: white;
@@ -22,8 +24,8 @@ ul{
 }
 
  
-.Nav-link:after {
-  content: '';
+.Nav-link-lightMode:after, .Nav-link-darkMode:after {
+
   display: block;
   height: 1px;
   width: 0;
@@ -31,10 +33,17 @@ ul{
   transition: width .5s ease, background-color .5s ease;
 }
 
-.Nav-link:hover:after {
+
+.Nav-link-darkMode:hover:after  {
   width: 100%;
   background:  #FF2247;
 }
+
+.Nav-link-lightMode:hover:after   {
+  width: 100%;
+  background:  #eda5a9;
+}
+
 
 
 .x-logo{

@@ -9,10 +9,13 @@ import { connect } from 'react-redux';
 import ToggleButton from './Components/ToggleButton'
 import './App.css'
 
-function App(props) {
 
+function App(props) {
+  
   return (
     <div className={!props.darkMode ? "Light" : 'Dark'}>
+    <link rel="shortcut icon" href="../public/favicon.ico"/> 
+
       <ToggleButton className='toggle' toggleChecked = {props.toggleChecked}/>
       <Navbar />
 

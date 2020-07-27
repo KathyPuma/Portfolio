@@ -59,3 +59,21 @@
     }
 
 }
+
+
+.profile-photo{
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    padding-bottom: 10%;
+}
+
+
+
+@media screen and (max-width: 665px) {
+    .About-container {
+      margin-bottom: 75px;
+    }
+}

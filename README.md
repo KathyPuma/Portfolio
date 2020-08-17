@@ -2,15 +2,9 @@
 
 ### Deployed: https://kathypuma.dev/
 
-## Wireframes 
+## Wireframes
 
-!['About'](./Wireframes/aboutWireframe.png)
-
-!['projects'](./Wireframes/projectsWireframe.png)
-
-!['skills'](./Wireframes/skillsWireframe.png)
-
-!['contact'](./Wireframes/contactWireframe.png)
+[Wireframes PDF](./Wireframes/images/wireframes.pdf)
 
 ## **Technologies Used**
 

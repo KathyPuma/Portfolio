@@ -4,7 +4,7 @@
 
 ## Wireframes
 
-[Wireframes PDF](./Wireframes/images/wireframes.pdf)
+[Wireframes PDF](./Wireframes/wireframes.pdf)
 
 ## **Technologies Used**
 

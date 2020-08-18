@@ -3,6 +3,7 @@
   color: black;
   min-height: 100vh;
   fill: black;
+  background-color: #F7E4DE;
 }
 
 .Dark{
@@ -17,8 +18,8 @@
 }
 
 body{
-margin:0px;
-font-family: 'Playfair Display', serif;
+  margin:0px;
+  font-family: 'Playfair Display', serif;
 }
 
 .Home-stage, .Projects-stage,  .About-stage,  .Contact-stage, .Skills-stage {
@@ -31,5 +32,5 @@ font-family: 'Playfair Display', serif;
 }
 
 .Nav-heading-darkMode{
-  color: #FF2247;
+  color: #121212;
 }

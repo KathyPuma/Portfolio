@@ -2,8 +2,12 @@ import React, { useState, useEffect } from 'react'
 import './Projects.css'
 import Carry from './Projects/Carry.png'
 import Greenlist from './Projects/Greenlist.jpg'
+import RedditClone from './Projects/RedditClone.png'
+import themeStore from '../redux/store/themeStore'
+
 
 function Projects() {
+    const state = themeStore.getState();
     const [projects, setProjects] = useState([])
 
     useEffect(() => {
@@ -13,7 +17,8 @@ function Projects() {
     const handleAllProjects = () => {
                 let displayProject =
                     [
-                        { name: 'Carry', about: 'A delivery platform for luxury clothes in NYC', img: Carry, github: 'https://github.com/KathyPuma/Carry', deployed: 'https://pursuitcarry.herokuapp.com/' },
+                        { name: 'RedditClone', about: 'A clone that mimics reddit ', img: RedditClone, github: 'https://github.com/KathyPuma/Reddit_clone', deployed: '' },
+                        { name: 'Carry', about: 'A delivery platform for luxury clothes in NYC.', img: Carry, github: 'https://github.com/KathyPuma/Carry', deployed: 'https://pursuitcarry.herokuapp.com/' },
                         { name: 'Greenlist', about: 'A registry that allows small designers and suppliers have a centralized source of finding materials.', img: Greenlist, github: 'https://github.com/KathyPuma/greenlist__FSWeb', deployed: 'https://greenlist-registry.herokuapp.com/main' },
                     ]
                 setProjects(displayProject)

@@ -48,11 +48,12 @@ input, textarea{
     font-size: 1em;
 }
 .submit-button-lightMode{
-    background-color: #eda5a9;
+    background-color: #cebabb;
 }
 
 .submit-button-darkMode{
-    background-color: #FF2247;
+    background-color: lightgray;
+    border: 1px solid #80808030;
 }
 
 label{

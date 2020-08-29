@@ -5,7 +5,7 @@
 
 .Footer-icons{
     display: grid; 
-    grid-template-columns: repeat(2,auto);
+    grid-template-columns: repeat(3,auto);
     grid-gap: 10%;
 }
 
@@ -31,7 +31,7 @@ a{
     flex-direction: column;
 }
 
-.github-link, .linkedin-link{
+.github-link, .linkedin-link, .email-link{
     display: flex;
     justify-content: center;
     width: 50px;
@@ -49,10 +49,21 @@ a{
 }
 .name-lightMode {
     color:black;
+    display: flex;
+    align-self: center;
  
 }
 
 .name-darkMode, .github-darkMode{
     color:white;
     fill:white;
+    display: flex;
+    align-self: center;
+}
+svg{
+    font-size: -webkit-xxx-large;
+}
+
+.emailIcon-darkMode{
+    color: white;
 }

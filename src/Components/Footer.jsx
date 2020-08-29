@@ -32,7 +32,9 @@ function Footer() {
                     </div>
                     <div className='email-link'>
                         <a href="mailto:kathypuma@pursuit.org?subject=&body=">
-                            <Icon icon={emailIcon} />
+                            <Icon icon={emailIcon}  
+                            className={!state.theme.darkMode ? 'emailIcon-lightMode' : 'emailIcon-darkMode'}/>
+                            <span className={!state.theme.darkMode ? 'name-lightMode' : 'name-darkMode'}  >  Email </span>
                         </a>
                     </div>
 

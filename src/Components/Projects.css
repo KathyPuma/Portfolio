@@ -100,7 +100,7 @@ a.link , a:visited, a:active,a {
 }
 
 a:hover{
-  color: #F7E4DE;
+  color: #FFE3DA;
 }
 
 @media (min-width: 40rem) {

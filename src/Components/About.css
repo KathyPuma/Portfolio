@@ -1,10 +1,12 @@
 .About-container{
     display: grid;
-    grid-template-rows: 35%;
+    grid-template-rows: 150px 250px;
     margin-left: 20%;
     margin-right: 20%;
-    height: 100%;
+    height: auto;
+
 }
+
 
 .About-card{
     transition: 0.3s;
@@ -22,9 +24,9 @@
     margin: 0px;
     align-self: center;
     padding: 15px;
-    font-size: 19px;
+
     font-family: "Helvetica Neue";
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-variant: normal;
 }
@@ -36,12 +38,7 @@
     }
 }
 
-.About-description{
-    padding: 15px;
-    font-size: 19px;
-
-}
-      
+ 
 @media only screen and (max-width: 266px){ 
     .About-title{
         padding: 0px;
@@ -53,7 +50,7 @@
     }
 }
 
-@media only screen and (max-height: 281px){ 
+@media only screen and (min-height: 281px){ 
     .About-container{
         align-content: normal;
     }
@@ -61,14 +58,16 @@
 }
 
 
+
+
+.About-image{
+    height: 100%;
+    text-align: -webkit-center;
+}
+
 .profile-photo{
-    width: 30%;
-    height: auto;
-    display: flex;
-    justify-self: center;
-    align-self: center;
-    padding-bottom: 10%;
-    border-radius: 10px;
+    height: 150px;
+
 }
 
 
@@ -78,3 +77,4 @@
       margin-bottom: 75px;
     }
 }
+

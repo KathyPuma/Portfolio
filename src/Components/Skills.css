@@ -2,21 +2,35 @@
     display: flex;
     flex-direction: column;
     align-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .Skills-container{
-    margin: 0 10%;
+   width: 100%;
 }
 
 .Skills-icons{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, auto));
+    grid-template-columns: repeat(10, minmax(100px, auto));
     object-fit: cover;
     grid-gap: 1em;
     justify-content: center;
     font-size: .95em;
     justify-items: center;
 }
+
+@media screen and (max-width: 1850px) {
+    .Skills-icons{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(100px, auto));   
+        object-fit: cover;
+        grid-gap: 1em;
+        justify-content: center;
+        font-size: .95em;
+        justify-items: center;
+    }
+  }
 
 .react-logo, .redux-logo, .css-logo, .git-logo, .js-logo, .node-logo,.express-logo, .postgreSQL-logo,.github-logo, .html-logo{
     font-size: 2.5em;

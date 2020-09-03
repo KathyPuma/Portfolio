@@ -21,15 +21,17 @@ body{
   font-family: 'Playfair Display', serif;
 }
 
-.Home-stage, .Projects-stage,  .About-stage,  .Contact-stage, .Skills-stage {
+.Home-stage, .Projects-stage, .About-stage,  .Contact-stage, .Skills-stage {
   height: 100%;
   padding-bottom: 5rem;
 } 
 
 .Nav-heading-lightMode{
   color: #eda5a9;
+  margin: 0px;
 }
 
 .Nav-heading-darkMode{
   color: #121212;
+  margin: 0px;
 }

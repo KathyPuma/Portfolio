@@ -20,7 +20,7 @@ function Projects() {
                     [
                         { name: 'RedditClone', about: 'A clone that mimics reddit.', img: RedditClone, github: 'https://github.com/KathyPuma/Reddit_clone', deployed: 'http://reddit-replica1.herokuapp.com/' },
                         { name: 'Carry', about: 'A delivery platform for luxury clothes in NYC.', img: Carry, github: 'https://github.com/KathyPuma/Carry', deployed: 'https://pursuitcarry.herokuapp.com/' },
-                        { name: 'MovieMarathon', about: 'A movie/show review hub that allows users to see what others are watching and recommending.', img: MovieMarathon, github: 'https://github.com/KathyPuma/MovieMarathon', deployed: 'https://moivemarathon.herokuapp.com/' },
+                        { name: 'MovieMarathon', about: 'A movie/show review hub that allows users to see what others are watching and recommending.', img: MovieMarathon, github: 'https://github.com/KathyPuma/MovieMarathon', deployed: '' },
                         { name: 'Greenlist', about: 'A registry that allows small designers and suppliers have a centralized source of finding materials.', img: Greenlist, github: 'https://github.com/KathyPuma/greenlist__FSWeb', deployed: 'https://greenlist-registry.herokuapp.com/main' },
                     ]
                 setProjects(displayProject)

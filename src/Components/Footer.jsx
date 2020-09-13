@@ -1,6 +1,6 @@
 import React from 'react'
 import themeStore from '../redux/store/themeStore'
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import emailIcon from '@iconify/icons-clarity/email-line';
 import './Footer.css'
 
@@ -32,8 +32,8 @@ function Footer() {
                     </div>
                     <div className='email-link'>
                         <a href="mailto:kathypuma@pursuit.org?subject=&body=">
-                            <Icon icon={emailIcon}  
-                            className={!state.theme.darkMode ? 'emailIcon-lightMode' : 'emailIcon-darkMode'}/>
+                            <Icon icon={emailIcon}
+                                className={!state.theme.darkMode ? 'emailIcon-lightMode' : 'emailIcon-darkMode'} />
                             <span className={!state.theme.darkMode ? 'name-lightMode' : 'name-darkMode'}  >  Email </span>
                         </a>
                     </div>
